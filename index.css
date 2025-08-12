@@ -1,0 +1,53 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: bisque;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 200px;
+}
+
+h2 {
+    color: greenyellow;
+    text-align: left;
+    font-size: 130px;
+}
+
+p {
+    color: deeppink;
+    text-align: left;
+    font-size: 60px;
+    border: 6px solid black;
+    padding: 20px;
+    margin: 40px;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#para-with-bg {
+    background-image: zeta.png;
+}
