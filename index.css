@@ -1,6 +1,10 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
 }
 
 h1 {
@@ -49,5 +53,26 @@ a:active {
 }
 
 #para-with-bg {
-    background-image: zeta.png;
+    background-image: url('/zeta.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 7.5vh;
+    min-width: 40vw;
+    min-height: 70vh;
+}
+
+#para-in-bg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*border: 6px solid white;*/
 }
